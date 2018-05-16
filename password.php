@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="passStyle.css">
+    <link rel="stylesheet" href="/EsPhp/php-ex-2/passStyle.css">
     <title></title>
   </head>
   <body>
@@ -13,14 +13,14 @@
       if($password == 'Boolean'){
     ?>
 
-      <span id="greenColor" style="color: green">Password corretta</span>
+      <span id="greenColor">Password corretta</span>
 
     <?php
       }
       else{
     ?>
 
-      <span id="redColor" style="color: red">Password incorretta</span>
+      <span id="redColor">Password incorretta</span>
 
     <?php } ?>
 

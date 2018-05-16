@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.active{
+  cursor: pointer;
+  color: green;
+}
+.disabled{
+  color: darkgrey;
+  pointer-events: none;
+}
